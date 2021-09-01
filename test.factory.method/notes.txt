@@ -1,0 +1,7 @@
+﻿Today I will be introducing Factory Method Pattern.
+
+Factory method pattern is a creational design pattern that provides a base class or an abstract class or an interface which refers to 
+as a superclass, and is inheritted by a subclass to alter the type of objects, methods that will be created.
+
+So for our problem, we will try to solve or create a solution through Test Driven Design, which will solve a logistics problem that requires transport
+by air, car, motorcycle or ship.

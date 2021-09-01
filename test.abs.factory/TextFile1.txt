@@ -1,0 +1,13 @@
+﻿Today I will be talking about abstract factory pattern, again this is another creational design pattern that lets you produce
+families of related objects without specifying their concrete classes.
+
+so for our problem, we will provide a solution on how a vehicle factory could produce a car, truck and motorcycle. again we wills start
+by creating a unit test.
+
+Recap,
+
+Abstract Factory which is the interface IFactory
+
+Concrete Factory which is the MotorcycleFactory, CarFactory and TruckFactory that produces specific products
+
+Products which is the Motorcycle, Car and Truck classes.
