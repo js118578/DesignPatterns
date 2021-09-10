@@ -1,3 +1,4 @@
-/test.builder/TestResults
-/test.builder/bin
-/test.builder/obj
+/*/TestResults
+/*/bin
+/*/obj
+/*/.vs

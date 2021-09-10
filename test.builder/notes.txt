@@ -1,0 +1,20 @@
+﻿Good morning guys, today I will be introducing another creational design pattern, the builder pattern.
+
+this pattern lets you construct complext objects step by step. the pattern allows you to produce different types
+and representation of an object using the same construction code.
+
+for our problem, we will dig deeper with our vehicle factory where we introduce the builder pattern to create
+cars, motorcycle and truck. again we will be starting by creating unit test for our solution.
+
+as for the conclusion,
+
+we have create the follow classes.
+
+Director - which refers to the VehicleBuilder class, this class
+acts as a director which tells us which builder to use and
+what actions we should do to create the required object.
+
+Concrete Builder - this class constructs the concrete object, these are
+MotorcycleBuilder, CarBuilder and TruckBuilder.
+
+Product - which refers to Car, Truck and Motorcycle models.
